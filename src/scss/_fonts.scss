@@ -1,1 +1,54 @@
-// @include font-face("Muller", "../fonts/MullerRegular", 400, normal);
+@font-face {
+  font-family: 'PFDinTextCondPro';
+  src: url('../resources/fonts/PFDinTextCondPro-Medium.woff2') format('woff2'),
+      url('../resources/fonts/PFDinTextCondPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro';
+  src: url('../resources/fonts/PFDinTextCondPro-Medium.woff2') format('woff2'),
+      url('../resources/fonts/PFDinTextCondPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro';
+  src: url('../resources/fonts/PFDinTextCondPro-Light.woff2') format('woff2'),
+      url('../resources/fonts/PFDinTextCondPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro';
+  src: url('../resources/fonts/PFDinTextCondPro-Light.woff2') format('woff2'),
+      url('../resources/fonts/PFDinTextCondPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Bluescreens';
+  src: url('../resources/fonts/TTBluescreens-Bold.woff2') format('woff2'),
+      url('../resources/fonts/TTBluescreens-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Bluescreens';
+  src: url('../resources/fonts/TTBluescreens-Bold.woff2') format('woff2'),
+      url('../resources/fonts/TTBluescreens-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
