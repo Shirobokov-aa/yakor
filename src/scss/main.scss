@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style:none;
+}
+
 .container {
   max-width: 1920px;
   width: 100%;
@@ -19,7 +23,8 @@ a {
 }
 
 .header-top__row {
-  height: 56px;
+  // height: 56px;
+  height: 500px;
   display: flex;
   align-items: center;
   gap: 32px;
@@ -50,3 +55,12 @@ a {
   margin-left: 48px;
 }
 
+.main-menu__visible-links{
+  display: flex;
+  list-style:none;
+}
+
+.dropdown-menu{
+  width: 343px;
+  position: absolute;
+}
