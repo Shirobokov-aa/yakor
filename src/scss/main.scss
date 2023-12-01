@@ -63,7 +63,7 @@ ul li {
   list-style: none;
 }
 
-.main-menu__item{
+.main-menu__item {
   position: relative;
 }
 
@@ -75,7 +75,7 @@ ul li {
   margin-left: 6px;
 }
 
-.dropdown-menu + .main-menu__item{
+.dropdown-menu+.main-menu__item {
   margin-left: 16px;
 }
 
@@ -91,9 +91,8 @@ ul li {
   /* 125% */
   letter-spacing: 0.8px;
 }
-.main-menu__link-icone{
 
-}
+.main-menu__link-icone {}
 
 .dropdown-menu {
   width: 343px;
@@ -133,6 +132,46 @@ ul li {
   letter-spacing: 0.6px;
 }
 
-.main-menu__link:hover + .dropdown-menu{
+.main-menu__link:hover+.dropdown-menu {
   display: block;
+}
+
+.header-main__menu-right {
+  margin-left: auto;
+  padding-right: 32px;
+  box-sizing: border-box;
+
+}
+
+.header-main__callback {
+  display: inline-flex;
+  padding-right: 0px;
+  align-items: center;
+  gap: 8px;
+  background: var(--ui-black-90, rgba(21, 15, 15, 0.9));
+  border: none;
+  cursor: pointer;
+}
+
+.header-main__menu-right__text {
+  color: var(--txt-white, #FFF);
+
+  /* Text/1366/S3 Light */
+  font-family: PF Din Text Cond Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  /* 125% */
+  letter-spacing: 0.8px;
+}
+
+.header__mail{
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+.header__number{
+  padding-right: 61px;
+  box-sizing: border-box;
 }
